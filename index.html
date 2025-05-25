@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Rohm - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            background: #f8fafc;
+            color: #222;
+        }
+
+        header {
+            background: #222;
+            color: #fff;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #f5f5f5 60%, #e0e7ff 100%);
+            padding: 70px 20px 50px 20px;
+            text-align: center;
+            border-radius: 0 0 24px 24px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+            margin-bottom: 40px;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin: 8px 0;
+        }
+
+        .section {
+            background: #fff;
+            padding: 40px 24px;
+            max-width: 800px;
+            margin: 0 auto 32px auto;
+            border-radius: 18px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+        }
+
+        .section h2 {
+            color: #1a237e;
+            font-size: 2rem;
+            margin-bottom: 18px;
+            font-weight: 700;
+        }
+
+        .section h3 {
+            color: #222;
+            margin-top: 24px;
+            margin-bottom: 6px;
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+
+        .section ul {
+            padding-left: 20px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background: #e0e7ff;
+            color: #222;
+            padding: 10px 20px;
+            border-radius: 999px;
+            font-size: 1rem;
+            font-weight: 500;
+            box-shadow: 0 1px 4px rgba(79, 70, 229, 0.07);
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .skills-list li:hover {
+            background: #6366f1;
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+
+            .section,
+            .hero {
+                padding: 24px 8px;
+            }
+
+            .skills-list {
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div
+            style="max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <h1 style="margin: 0;">Olivia Rohm</h1>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Catalog Specialist | Interior Design + Visual AI | Customer Experience</p>
+        <p>Email: <a href="mailto:olivia.rohm@gmail.com">olivia.rohm@gmail.com</a> | 203.313.4030 | San Diego</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/olivia-rohm-ab301622" target="_blank">olivia-rohm-ab301622</a>
+        </p>
+    </section>
+    <section class="section" id="about">
+        <h2>Professional Summary</h2>
+        <p>With experience spanning portrait photography, residential design, and enhancing customer experiences at RH,
+            I
+            have honed my ability to blend design with sales and client satisfaction. At Amazon, I have leveraged my
+            analytical skills as a Catalog Specialist, where I analyze AI-generated imagery, contribute to machine
+            learning prompts, and help clients visualize their products. I have also taken initiative in onboarding new
+            hires and managing trend insights.</p>
+    </section>
+    <section class="section" id="experience">
+        <h2>Experience</h2>
+        <h3>Catalog Specialist</h3>
+        <p><strong>Amazon · Remote · Jan 2024 - Present</strong></p>
+        <ul>
+            <li>Leverage interior design expertise to enhance AI-generated lifestyle images</li>
+            <li>Analyze image outputs and guide improvements via structured feedback</li>
+            <li>Contribute to prompt development and visual quality control</li>
+            <li>Onboard and mentor new team members; lead trend tracking initiatives</li>
+        </ul>
+        <h3>Virtual Designer / Sales Associate</h3>
+        <p><strong>Mitchell Gold + Bob Williams · Remote · Jun 2023 - Sep 2023</strong></p>
+        <ul>
+            <li>Conducted virtual design consultations tailored to residential clients</li>
+            <li>Delivered personalized recommendations aligned with brand aesthetics</li>
+            <li>Supported sales pipeline through detailed and responsive client guidance</li>
+        </ul>
+        <h3>Associate Designer</h3>
+        <p><strong>RH · Denver, CO · Jan 2022 - Oct 2022</strong></p>
+        <ul>
+            <li>Led home design projects from concept to completion</li>
+            <li>Achieved $4M+ in sales by delivering high-touch client experiences</li>
+            <li>Utilized Salesforce and AutoCAD daily</li>
+        </ul>
+        <h3>Design Consultant</h3>
+        <p><strong>RH · Denver, CO · Aug 2020 - Jan 2022</strong></p>
+        <ul>
+            <li>Delivered in-store and virtual design services for projects up to $50K</li>
+            <li>Managed up to 30 concurrent projects and provided technical support</li>
+            <li>Strengthened client relationships through consistent, personalized service</li>
+        </ul>
+        <h3>Associate Interior Designer</h3>
+        <p><strong>Stephanie Molster Interiors · Charleston, SC · May 2015 - Aug 2020</strong></p>
+        <ul>
+            <li>Sourced interior finishes, created mood boards, and drafted floor plans</li>
+            <li>Coordinated with architects and trades to execute full-scale installations</li>
+            <li>Led site visits, rendering, and project budgeting efforts</li>
+        </ul>
+        <h3>Portrait Photographer</h3>
+        <p><strong>Coastal Studios · Myrtle Beach, SC · Apr 2015 - Sep 2015</strong></p>
+        <ul>
+            <li>Conducted outdoor family and wedding photo sessions</li>
+            <li>Managed all aspects of editing and client delivery for high-volume shoots</li>
+        </ul>
+    </section>
+    <section class="section" id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Residential Interior Design Certificate, The Art Institute of Charleston · 2015</li>
+            <li>BA in Studio Art and Photography, College of Charleston · 2012</li>
+        </ul>
+    </section>
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Interior Design & Styling</li>
+            <li>Visual Merchandising</li>
+            <li>Space Planning</li>
+            <li>Client Presentation</li>
+            <li>AI Imagery Analysis</li>
+            <li>Prompt Engineering</li>
+            <li>Project Management</li>
+            <li>Trend Forecasting</li>
+            <li>Onboarding & Mentorship</li>
+            <li>Adobe Creative Suite</li>
+            <li>AutoCAD</li>
+            <li>Microsoft 365</li>
+            <li>Salesforce</li>
+            <li>HTML & CSS</li>
+            <li>Python</li>
+        </ul>
+    </section>
+</body>
+
+</html>
